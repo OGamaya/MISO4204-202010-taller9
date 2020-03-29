@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="Cajero">
+            <feature mandatory="true" name="ingreso"/>
+            <and mandatory="true" name="registro_operaciones">
+                <feature mandatory="true" name="listado_operaciones"/>
+                <feature name="reporte_auditoria"/>
+            </and>
+            <and mandatory="true" name="operaciones">
+                <feature name="transferencias"/>
+                <feature name="consignaciones"/>
+                <feature name="pagos_servicios"/>
+                <feature mandatory="true" name="retiros"/>
+                <feature mandatory="true" name="saldo"/>
+            </and>
+            <feature name="saldo_reducido"/>
+        </and>
+    </struct>
+    <constraints/>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>

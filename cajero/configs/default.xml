@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="Cajero"/>
+    <feature automatic="selected" name="ingreso"/>
+    <feature automatic="selected" name="registro_operaciones"/>
+    <feature automatic="selected" name="listado_operaciones"/>
+    <feature manual="selected" name="reporte_auditoria"/>
+    <feature automatic="selected" name="operaciones"/>
+    <feature manual="selected" name="transferencias"/>
+    <feature manual="selected" name="consignaciones"/>
+    <feature manual="selected" name="pagos_servicios"/>
+    <feature automatic="selected" name="retiros"/>
+    <feature automatic="selected" name="saldo"/>
+</configuration>
